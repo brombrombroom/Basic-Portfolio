@@ -1,32 +1,50 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Contact</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="reset.css">  
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    <script src="main.js"></script>
-</head>
-<body>
-    <img src="Images/portfolio-contact.png">
 
- <h1><header>Francisco Linares</header></h1>
-    
- <h2>About</h2>
- <h2>Portfolio</h2>
- <h2>Contact</h2>
- <div id =Wrapper>
-     <h1>Contact</h1>
-        <!--Line between Contact and Name Header-->
-     <h3>Name</h3>
-    <!--Text Box-->
-     <h3>Email</h3>
-     <!--Text Box-->
-     <h3>Message</h3>
-     <!--Big Text Box-->
-     <!-- Submit Button under big text box-->
- </div>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>Contact </title>
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Francisco Linares</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="content">
+            <h2>Contact</h2>
+            <form>
+                Name<br>
+                <input type="text" name="name" value="John Doe"><br>
+                Email<br>
+                <input type="email" name="email" value="JDoe@domain.com"><br>
+                Message<br>
+                <textarea name="message"></textarea>
+                <input type="submit" class="submit">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright ©</p>
+    </footer>
+
 </body>
 </html>
